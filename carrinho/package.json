@@ -1,22 +1,18 @@
 {
-  "name": "livros",
+  "name": "carrinho",
   "version": "1.0.0",
-  "description": "Projeto da livraria saraiva - Microservico Livros",
+  "description": "Carrinho de compras do site saraiva ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/index.js"
   },
   "keywords": [
-    "Nodejs",
-    "express\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[E\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
-    "mysql2",
-    "Postman",
-    "jwt",
-    "servidor",
-    "banco",
+    "Carrinho",
     "de",
-    "dados"
+    "compras",
+    "da",
+    "livraria"
   ],
   "author": "Nicolas de Paula Pacheco",
   "license": "ISC",
@@ -27,6 +23,6 @@
     "helmet": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0",
-    "mysql2": "^3.10.1"
+    "mysql2": "^3.10.2"
   }
 }
